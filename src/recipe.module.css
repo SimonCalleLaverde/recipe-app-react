@@ -1,0 +1,20 @@
+/* Article */
+.recipe_article {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	min-width:40%;
+	margin:20px;
+	background-color:#FFF;
+	border-radius:10px;
+	box-shadow:0 5px 20px rgba(71,71,71,1);
+}
+.recipe_article .recipe_image {
+	width:200px;
+	height:200px;
+  border-radius:50%;
+}
+.recipe_article em {
+  display:block;/*Mine*/
+}
